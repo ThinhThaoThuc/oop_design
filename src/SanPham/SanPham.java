@@ -1,12 +1,13 @@
 package SanPham;
 
 public class SanPham implements Comparable<SanPham> {
+    public final String sanPham = null;
     private String maSanPham;
     private String tenSanPham;
     private DanhMuc danhMuc;
     private String thuongHieu;
     private double giaBan;
-    private int soLuongTon;
+    public static int soLuongTon;
 
     public SanPham(String maSanPham, String tenSanPham, DanhMuc danhMuc, String thuongHieu, double giaBan, int soLuongTon) {
         this.maSanPham = maSanPham;
