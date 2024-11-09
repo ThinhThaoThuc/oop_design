@@ -15,7 +15,7 @@ public class DoiTra extends HoaDon {
     }
     
     public DoiTra(String maDoiTra, String tenDoiTra, String dieuKienDoiTra, int thoiGianDoiTra, double phiDoiTra,
-            String hinhThucHoanTien, LocalDate ngayBatDauApDung, LocalDate ngayKetThucApDung) {
+        String hinhThucHoanTien, LocalDate ngayBatDauApDung, LocalDate ngayKetThucApDung) {
         this.maDoiTra = maDoiTra;
         this.tenDoiTra = tenDoiTra;
         this.dieuKienDoiTra = dieuKienDoiTra;
@@ -75,7 +75,10 @@ public class DoiTra extends HoaDon {
         this.ngayKetThucApDung = ngayKetThucApDung;
     }
 
-     public void nhapThongTin() {
+    @Override
+    public void nhap() {
+        // TODO Auto-generated method stub
+        super.nhap();
         System.out.print("Nhập mã đổi trả: ");
         maDoiTra = scanner.nextLine();
 

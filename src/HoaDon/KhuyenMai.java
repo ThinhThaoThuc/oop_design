@@ -24,9 +24,10 @@ public class KhuyenMai extends HoaDon {
         this.sanPhamApDung = sanPhamApDung;
         this.tongKhuyenMai = tongKhuyenMai;
     };
-    public void nhap(){
-        
-
+    @Override
+    public void nhap() {
+        // TODO Auto-generated method stub
+        super.nhap();
         System.out.print("Nhập mã khuyến mãi: ");
         maKhuyenMai = scanner.nextLine();
 
