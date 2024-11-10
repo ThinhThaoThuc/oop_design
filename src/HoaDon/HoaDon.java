@@ -60,12 +60,12 @@ public class HoaDon {
 
         // Giả định rằng NhanVien, KhuyenMai, và SanPham có phương thức nhập thông tin riêng 
 
-        // nhanVienLapHoaDon = new NhanVien(); 
-        // nhanVienLapHoaDon.nhapThongTin(); 
-        // khuyenMai = new KhuyenMai(); 
-        // khuyenMai.nhapThongTin(); 
-        // sanPham = new SanPham(); 
-        // sanPham.nhap();
+        nhanVienLapHoaDon = new NhanVien(); 
+        nhanVienLapHoaDon.nhapThongTin(); 
+        khuyenMai = new KhuyenMai(); 
+        khuyenMai.nhapThongTin(); 
+        sanPham = new SanPham(); 
+        sanPham.nhap();
         
         System.out.print("Nhap doanh thu hoa don: "); 
         doanhThuHoaDon = Double.parseDouble(scanner.nextLine()); 
